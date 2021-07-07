@@ -1,0 +1,94 @@
+window {
+  background-color: #2c3840;
+  color: #ffffff;
+}
+
+label {
+  color: #ffffff;
+}
+
+label#user_name_label {
+  color: #fff5eb;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 24px;
+  font-family: Nunito Sans;
+}
+
+
+label#volume_value_label {
+  color: #fff5eb;
+  font-style: normal;
+  font-size: 32px;
+  font-family: Nunito Sans;
+}
+
+
+#state_indicator label {
+  color: #fca340;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  font-family: Nunito Sans;
+}
+
+#error_subline {
+  color: #ea526f;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  font-family: Nunito Sans;
+}
+
+button {
+  background: #60656f;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px rgb(2, 24, 50), inset 0px 1px 1px rgb(150, 150, 150);
+  border: 0px;
+  padding: 20px 32px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+button#volume_up_button {
+  color: #fca340;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 32px;
+  font-family: Nunito Sans;
+}
+
+button#volume_down_button {
+  color: #fca340;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 32px;
+  font-family: Nunito Sans;
+}
+
+button:checked {
+  box-shadow: 0px 1px 2px rgb(2, 24, 50), inset 0px 1px 1px rgb(150, 150, 150);
+  background: #fca340;
+}
+
+button:active {
+  box-shadow: 0px 1px 2px rgb(2, 24, 50), inset 0px 1px 1px rgb(150, 150, 150);
+  background: #fca340;
+}
+
+button#activity_button {
+  background: #fca340;
+  box-shadow: 0px 1px 2px rgb(2, 24, 50), inset 0px 1px 1px rgb(150, 150, 150);
+}
+
+popover {
+  background: #2c3840;
+}
+
+popover scale {
+  color: #fca340;
+  background: #2c3840;
+}

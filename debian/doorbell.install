@@ -1,0 +1,4 @@
+usr/bin/doorbell /usr/bin
+./misc/sounds/399205__hgseidl__turklingel.mp3 /usr/share/doorbell/sounds/
+./misc/config_directory/doorbell.conf /etc/doorbell/
+./misc/config_directory/doorbell.service /lib/systemd/system/

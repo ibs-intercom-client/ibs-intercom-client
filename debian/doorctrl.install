@@ -1,0 +1,8 @@
+usr/bin/doorctrl /usr/bin
+./misc/styles/doorctrl_dark_theme.css /usr/share/doorctrl/styles/
+./misc/images/tranquility.jpg /usr/share/doorctrl/images/
+./misc/images/mute-microphone-filled.svg /usr/share/doorctrl/images/
+./misc/images/microphone-filled.svg /usr/share/doorctrl/images/
+./misc/images/speaker-filled.svg /usr/share/doorctrl/images/
+./misc/sounds/178137__keybit2__ring-ring.mp3 /usr/share/doorctrl/sounds/
+./misc/config_directory/doorctrl.conf /etc/doorctrl/

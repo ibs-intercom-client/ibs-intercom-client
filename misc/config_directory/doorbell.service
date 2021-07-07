@@ -1,0 +1,27 @@
+[Unit]
+Description=doorbell
+Wants=network-online.target
+After=network-online.target
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+User=doorbell
+Group=doorbell
+Type=simple
+PIDFile=/var/run/doorbell/doorbell.pid
+RuntimeDirectory=doorbell
+RuntimeDirectoryMode=0775
+TimeoutSec=300
+LimitRTPRIO=100
+#ExecStartPre=/etc/homegear/homegear-start.sh
+ExecStart=/usr/bin/doorbell
+ExecStopPost=/bin/kill -HUP $MAINPID
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=on-failure
+TasksMax=infinity
+LimitRTPRIO=infinity
+LimitRTTIME=infinity
+LimitCORE=infinity
+LimitSTACK=4194304

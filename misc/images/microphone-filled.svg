@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="102px" viewBox="0 0 100 102" style="enable-background:new 0 0 100 102;" xml:space="preserve">
+
+   <path d="M 33 17 A 17 17 0 0 1 67 17" style="stroke-linecap:round;stroke-width:0.1;fill:rgb(255,255,255);stroke:rgb(255,255,255);fill-opacity:100" />
+   <rect x="33" y="17" width="34" height="40" style="fill:rgb(255,255,255);stroke-width:0.1;stroke:rgb(255,255,255)" />
+   <path d="M 33 57 A 17 17 0 0 0 67 57" style="stroke-linecap:round;stroke-width:0.1;fill:rgb(255,255,255);stroke:rgb(255,255,255);fill-opacity:100" />
+   <path d="M 24 51 L 24 57 A 26 26 0 0 0 76 57 L 76 51" style="stroke-linecap:round;stroke-width:6;stroke:rgb(255,255,255);fill-opacity:0" />
+   <line x1="50" y1="86" x2="50" y2="98" style="stroke-linecap:square;stroke-width:8;stroke:rgb(255,255,255)" />
+   <line x1="24" y1="98" x2="76" y2="98" style="stroke-linecap:round;stroke-width:8;stroke:rgb(255,255,255)" />
+</svg>
